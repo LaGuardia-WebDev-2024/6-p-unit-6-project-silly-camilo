@@ -12,8 +12,31 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+background(34, 63, 168);
+noStroke();
 
-  
+ //bg hair
+fill(130, 178, 255);
+triangle(129, 268, 121, 306, 151, 284);
+triangle(129, 268, 147, 319, 192, 294);
+triangle(288, 245, 292, 288, 232, 280);
+
+  //neck
+fill(251, 179, 255);
+rect(150, 200, 100, 200)
+
+  //shoulders :3
+fill(255, 255, 255);
+ellipse(275, 400, 400, 200);
+
+  //FACE
+fill(255, 231, 219);
+ellipse(200, 175, 220, 250);
+
+//cheeks
+fill(255, 219, 248);
+ellipse(140, 200, 100, 75);
+ellipse(285, 200, 100, 75);
 
 }
 
