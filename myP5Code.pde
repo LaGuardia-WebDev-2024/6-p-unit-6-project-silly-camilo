@@ -21,6 +21,10 @@ triangle(129, 268, 121, 306, 151, 284);
 triangle(129, 268, 147, 319, 192, 294);
 triangle(288, 245, 292, 288, 232, 280);
 
+//bg headphones
+fill(255, 255, 255);
+ellipse(290, 175, 80, 200);
+
   //neck
 fill(251, 179, 255);
 rect(150, 200, 100, 200)
@@ -33,11 +37,40 @@ ellipse(275, 400, 400, 200);
 fill(255, 231, 219);
 ellipse(200, 175, 220, 250);
 
-//cheeks
+  //cheeks
 fill(255, 219, 248);
 ellipse(140, 200, 100, 75);
 ellipse(285, 200, 100, 75);
 
+  //headphones
+fill(255, 255, 255);
+ellipse(100, 175, 60, 200);
+triangle(91, 188, 26, 62, 144, 67);
+triangle(264, 71, 352, 64, 308, 163);
+fill(204, 247, 255);
+ellipse(90, 100, 70, 70);
+ellipse(300, 100, 60, 60);
+
+  //mic
+noFill();
+strokeWeight(10);
+stroke(255, 255, 255);
+arc(160, 250, 100, 100, radians(60),radians(180));
+fill(255, 255, 255);
+noStroke();
+ellipse(186, 295, 30, 30);
+
+  //EYESSSS
+fill(34, 63, 168);
+ellipse(153, 180, 80, 50);
+ellipse(270, 180, 80, 50);
+triangle(292, 160, 319, 163, 305, 181);
+fill(255, 255, 255);
+ellipse(162, 184, 62, 44);
+ellipse(260, 184, 62, 44);
+fill(130, 178, 255);
+ellipse(160, 182, 50, 46);
+ellipse(256, 182, 50, 44);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
