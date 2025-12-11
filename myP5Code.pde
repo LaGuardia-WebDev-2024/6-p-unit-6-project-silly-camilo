@@ -20,6 +20,7 @@ fill(130, 178, 255);
 triangle(129, 268, 121, 306, 151, 284);
 triangle(129, 268, 147, 319, 192, 294);
 triangle(288, 245, 292, 288, 232, 280);
+ellipse(195, 70, 220, 120);
 
 //bg headphones
 fill(255, 255, 255);
@@ -71,6 +72,31 @@ ellipse(260, 184, 62, 44);
 fill(130, 178, 255);
 ellipse(160, 182, 50, 46);
 ellipse(256, 182, 50, 44);
+
+  //hair
+fill(130, 178, 255);
+triangle(232, 43, 185, 152, 260, 80);
+noStroke();
+fill(100, 112, 245);
+triangle(195, 130, 227, 54, 178, 40);
+triangle(322, 153, 354, 230, 322, 216);
+fill(130, 178, 255);
+ellipse(160, 43, 100, 150);
+
+
+    //STRANDS
+  noFill();
+  strokeWeight(10);
+  stroke(130, 178, 255);
+  arc(208, 95, 100, 140, radians(270), radians(430));
+  strokeWeight(20);
+  stroke(100, 112, 245);
+  arc(150, 210, 340, 400, radians(300), radians(370));
+  stroke(130, 178, 255);
+  strokeWeight(14);
+  arc(200, 174, 200, 220, radians(290), radians(370));
+
+
 }
 
 //🟡Extra FUN Features Ms. Hall Added
