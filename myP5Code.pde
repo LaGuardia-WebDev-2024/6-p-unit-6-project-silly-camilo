@@ -76,12 +76,13 @@ ellipse(256, 182, 50, 44);
   //hair
 fill(130, 178, 255);
 triangle(232, 43, 185, 152, 260, 80);
+triangle(195, 130, 227, 54, 178, 40);
 noStroke();
 fill(100, 112, 245);
-triangle(195, 130, 227, 54, 178, 40);
 triangle(322, 153, 354, 230, 322, 216);
 fill(130, 178, 255);
-ellipse(160, 43, 100, 150);
+ellipse(160, 43, 140, 150);
+triangle(161, 158, 153, 56, 225, 87);
 
 
     //STRANDS
@@ -95,8 +96,8 @@ ellipse(160, 43, 100, 150);
   stroke(130, 178, 255);
   strokeWeight(14);
   arc(200, 174, 200, 220, radians(290), radians(370));
-
-
+  arc(150, 160, 100, 200, radians(90), radians(300));
+  arc(50, 70, 100, 150, radians(0), radians(80));
 }
 
 //🟡Extra FUN Features Ms. Hall Added
