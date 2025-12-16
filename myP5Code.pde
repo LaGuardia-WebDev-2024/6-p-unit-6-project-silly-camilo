@@ -20,11 +20,12 @@ fill(130, 178, 255);
 triangle(129, 268, 121, 306, 151, 284);
 triangle(129, 268, 147, 319, 192, 294);
 triangle(288, 245, 292, 288, 232, 280);
-ellipse(195, 70, 220, 120);
+ellipse(185, 70, 230, 120);
 
 //bg headphones
 fill(255, 255, 255);
 ellipse(290, 175, 80, 200);
+ellipse(100, 175, 60, 200);
 
   //neck
 fill(251, 179, 255);
@@ -45,7 +46,6 @@ ellipse(285, 200, 100, 75);
 
   //headphones
 fill(255, 255, 255);
-ellipse(100, 175, 60, 200);
 triangle(91, 188, 26, 62, 144, 67);
 triangle(264, 71, 352, 64, 308, 163);
 fill(204, 247, 255);
@@ -73,6 +73,13 @@ fill(130, 178, 255);
 ellipse(160, 182, 50, 46);
 ellipse(256, 182, 50, 44);
 
+//mouth :3
+fill(242, 145, 200);
+ellipse(216, 252, 60, 60);
+fill(255, 231, 219);
+rect(186, 220, 62, 30)
+
+
   //hair
 fill(130, 178, 255);
 triangle(232, 43, 185, 152, 260, 80);
@@ -81,8 +88,17 @@ noStroke();
 fill(100, 112, 245);
 triangle(322, 153, 354, 230, 322, 216);
 fill(130, 178, 255);
-ellipse(160, 43, 140, 150);
 triangle(161, 158, 153, 56, 225, 87);
+triangle(115, 81, 120, 170, 165, 110);
+beginShape();
+vertex(246, 67);
+vertex(216, 0);
+vertex(134, 6);
+vertex(90, 30);
+vertex(74, 88);
+vertex(70, 120);
+vertex(64, 200);
+endShape();
 
 
     //STRANDS
@@ -97,7 +113,7 @@ triangle(161, 158, 153, 56, 225, 87);
   strokeWeight(14);
   arc(200, 174, 200, 220, radians(290), radians(370));
   arc(150, 160, 100, 200, radians(90), radians(300));
-  arc(50, 70, 100, 150, radians(0), radians(80));
+  arc(30, 80, 100, 150, radians(0), radians(80));
 }
 
 //🟡Extra FUN Features Ms. Hall Added
