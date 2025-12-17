@@ -21,6 +21,8 @@ triangle(129, 268, 121, 306, 151, 284);
 triangle(129, 268, 147, 319, 192, 294);
 triangle(288, 245, 292, 288, 232, 280);
 ellipse(185, 70, 230, 120);
+ellipse(120, 170, 130, 210);
+triangle(259, 270, 263, 310, 236, 288);
 
 //bg headphones
 fill(255, 255, 255);
@@ -33,7 +35,7 @@ rect(150, 200, 100, 200)
 
   //shoulders :3
 fill(255, 255, 255);
-ellipse(275, 400, 400, 200);
+ellipse(240, 400, 400, 160);
 
   //FACE
 fill(255, 231, 219);
@@ -73,7 +75,21 @@ fill(130, 178, 255);
 ellipse(160, 182, 50, 46);
 ellipse(256, 182, 50, 44);
 
+  //eyeball crease?
+  noFill();
+  strokeWeight(04);
+  stroke(251, 179, 255);
+  arc(160, 185, 100, 72, radians(260), radians(314));
+  arc(262, 186, 100, 76, radians(240), radians(280));
+
+  //eyeshine heart!!!!
+  stroke(255, 255, 255);
+  ellipse();
+  ellipse();
+  triangle();
+
 //mouth :3
+noStroke();
 fill(242, 145, 200);
 ellipse(213, 252, 60, 60);
 fill(255, 231, 219);
@@ -107,13 +123,26 @@ endShape();
   stroke(130, 178, 255);
   arc(208, 95, 100, 140, radians(270), radians(430));
   strokeWeight(20);
-  stroke(100, 112, 245);
   arc(150, 210, 340, 400, radians(300), radians(370));
-  stroke(130, 178, 255);
   strokeWeight(14);
   arc(200, 174, 200, 220, radians(290), radians(370));
   arc(150, 160, 100, 200, radians(90), radians(300));
   arc(30, 80, 100, 150, radians(0), radians(80));
+  stroke(100, 112, 245);
+
+//hair again over strands
+noStroke();
+fill(130, 178, 255);
+triangle(220, 30, 291, 65, 247, 23);
+fill(204, 247, 255);
+ellipse(86, 86, 14, 30);
+ellipse(108, 100, 20, 40);
+ellipse(286, 90, 14, 30);
+ellipse(132, 86, 14, 30);
+ellipse(264, 75, 20, 40);
+
+
+
 }
 
 //🟡Extra FUN Features Ms. Hall Added
