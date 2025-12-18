@@ -84,16 +84,29 @@ ellipse(256, 182, 50, 44);
 
   //eyeshine heart!!!!
   stroke(255, 255, 255);
-  ellipse();
-  ellipse();
-  triangle();
+  fill(255, 255, 255);
+  strokeWeight(03);
+  ellipse(143, 168, 4, 4);
+  ellipse(150, 168, 4, 4);
+  triangle(141, 168, 146, 175, 152, 168);
+  ellipse(243, 168, 4, 4);
+  ellipse(250, 168, 4, 4);
+  triangle(241, 168, 246, 175, 252, 168);
+    //more shine
+    noStroke();
+    fill(204, 247, 255);
+    ellipse(154, 196, 30, 10);
+    ellipse(252, 196, 30, 10);
+
 
 //mouth :3
-noStroke();
 fill(242, 145, 200);
 ellipse(213, 252, 60, 60);
+fill(255, 255, 255);
+triangle(229, 244, 236, 258, 240, 244);
 fill(255, 231, 219);
-rect(183, 220, 62, 30)
+ellipse(196, 228, 40, 40);
+ellipse(228, 228, 40, 40);
 
 
   //hair
@@ -115,6 +128,13 @@ vertex(74, 88);
 vertex(70, 120);
 vertex(64, 200);
 endShape();
+beginShape();
+vertex(80, 180);
+vertex(90, 214);
+vertex(94, 230);
+vertex(116, 250);
+vertex(96, 178);
+endShape();
 
 
     //STRANDS
@@ -128,7 +148,6 @@ endShape();
   arc(200, 174, 200, 220, radians(290), radians(370));
   arc(150, 160, 100, 200, radians(90), radians(300));
   arc(30, 80, 100, 150, radians(0), radians(80));
-  stroke(100, 112, 245);
 
 //hair again over strands
 noStroke();
@@ -140,6 +159,18 @@ ellipse(108, 100, 20, 40);
 ellipse(286, 90, 14, 30);
 ellipse(132, 86, 14, 30);
 ellipse(264, 75, 20, 40);
+
+//shirt thing
+fill(255, 207, 217);
+triangle(150, 315, 200, 345, 245, 320);
+strokeWeight(22);
+stroke(34, 63, 168);
+line(145, 332, 155, 399);
+line(260, 323, 270, 399);
+noFill();
+strokeWeight(16);
+arc(123, 400, 200, 160, radians(270), radians(330))
+arc(253, 400, 120, 160, radians(220), radians(270))
 
 
 
