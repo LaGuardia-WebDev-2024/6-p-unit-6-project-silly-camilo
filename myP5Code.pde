@@ -15,6 +15,18 @@ void draw(){
 background(34, 63, 168);
 noStroke();
 
+//bg hearts
+fill(251, 179, 255);
+ellipse(40, 316, 35, 35);
+ellipse(70, 316, 35, 35);
+triangle(22, 319, 54, 349, 87, 319);
+ellipse(322, 29, 23, 23);
+ellipse(340, 29, 23, 23);
+triangle(312, 33, 332, 52, 350, 33);
+ellipse(362, 99, 23, 23);
+ellipse(380, 99, 23, 23);
+triangle(350, 100, 370, 120, 392, 100);
+
  //bg hair
 fill(130, 178, 255);
 triangle(129, 268, 121, 306, 151, 284);
@@ -163,6 +175,8 @@ ellipse(264, 75, 20, 40);
 //shirt thing
 fill(255, 207, 217);
 triangle(150, 315, 200, 345, 245, 320);
+fill(34, 63, 168);
+ellipse(209, 370, 80, 30);
 strokeWeight(22);
 stroke(34, 63, 168);
 line(145, 332, 155, 399);
